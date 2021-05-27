@@ -1,0 +1,5 @@
+[target.aarch64-unknown-none-softfloat]
+rustflags = ["-C", "link-arg=-Tconfig/aarch64/linkerscript.ld"]
+
+[build]
+target = "aarch64-unknown-none-softfloat"

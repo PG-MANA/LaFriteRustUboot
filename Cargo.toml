@@ -1,0 +1,8 @@
+[package]
+name = "la_frite_rust_uboot"
+version = "0.1.0"
+authors = ["PG_MANA <pg_mana@taprix.org>"]
+license = "Apache-2.0"
+edition = "2018"
+
+[dependencies]

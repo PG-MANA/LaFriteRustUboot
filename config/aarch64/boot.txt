@@ -1,0 +1,8 @@
+setenv bootcmd
+setenv autoload no
+if load usb 0 $ramdisk_addr_r kernel.elf; then
+	bootelf $ramdisk_addr_r
+else
+	echo "Unable to read kernel.elf"
+fi
+sleep 10000000
